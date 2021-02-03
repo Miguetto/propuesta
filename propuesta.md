@@ -1,10 +1,15 @@
-% Videoclub "Los Pajaritos"
-% Ricardo Pérez
-% Curso 2019/20
+% ecoFresh : "Ecologico, fresco y de aquí"
+% Miguel Ángel Caro Bernal
+% Curso 2020/21
 
 # Descripción general del proyecto
 
-Explicar.
+Este proyecto consiste en el desarrollo de una aplicación web destinada a la venta de productos
+del campo sin que intervengan intermediarios.
+
+La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado.
+
+
 
 ## Funcionalidad principal de la aplicación
 
