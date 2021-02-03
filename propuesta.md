@@ -5,7 +5,7 @@
 # Descripción general del proyecto
 
 Este proyecto consiste en el desarrollo de una aplicación web (marketplace) destinada a la compra/venta de productos
-del campo (verduras, frutas, hortalizas, etc.) sin que intervengan intermediarios, más que el cliente y el vendedor.
+del campo (verduras, frutas, hortalizas, etc.) sin que haya intermediarios, más que el cliente y el vendedor.
 
 La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado.
 
