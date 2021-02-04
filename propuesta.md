@@ -25,6 +25,6 @@ Por ejemplo:
 
 # Elemento de innovación
 
-Utilizaremos varios elementos de innovación, con node.js implementaremos la funcionalidad del chat interno y con
+Utilizaremos varios elementos de innovación, con node.js o Yii2 Chat implementaremos la funcionalidad del chat interno y con
 la Api de Google Maps haremos lo del mapa.
 
