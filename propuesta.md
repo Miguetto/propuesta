@@ -18,12 +18,11 @@ El rol de administrador es el que llevará a cabo el correcto funcionamiento de 
 
 ## Objetivos generales
 
-A diferencia de los casos de uso, los objetivos no tienen principio ni fin.
-
-Por ejemplo:
-
-* Objetivo: "gestionar los alquileres y las devoluciones de las películas".
-* Casos de uso: "alquilar una película", "devolver una película".
+* Objetivo: "ver, comentar, valorar, crear y gestionar los diferentes recursos educativos.".
+* Casos de uso: 
+    * Usuario: "Registrarse", "iniciar sesión", "ver recursos", "descargar recursos", "comentar y valorar recursos ya creados".
+    * Revisor: "devolver una película".
+    * Administrador: "devolver una película".
 
 # Elemento de innovación
 
