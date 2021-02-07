@@ -22,7 +22,7 @@ El rol de administrador es llevar a cabo el correcto funcionamiento de la aplica
 * Objetivo: "ver, comentar, valorar, crear y gestionar los diferentes recursos educativos.".
 * Casos de uso: 
     * **Usuario:** "Registrarse", "iniciar sesión", "añadir recursos", "modificar su propio recurso", "ver recursos", "descargar recursos", "buscar recursos", "comentar recursos ya creados", "dar like a recursos creados".
-    * **Revisor:** Todos los anteriores, "aceptar un recurso nuevo", "denegar un recurso nuevo", "proponer nuevos recursos", , "modificar un recurso", "avisar de incidencias al administrador".
+    * **Revisor:** Todos los anteriores, "aceptar un recurso nuevo", "denegar un recurso nuevo", "proponer nuevos recursos","modificar un recurso", "avisar de incidencias al administrador".
     * **Administrador:** Todos los anteriores, "Recibir incidencias", "Solucionar incidencias", "Modificar usuarios".
 
 # Elemento de innovación
