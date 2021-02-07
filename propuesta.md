@@ -1,11 +1,12 @@
-% **orientaT** : "Recursos educativos accesibles, facilitadores y gratuitos."
+% orientaT : "Recursos educativos accesibles, facilitadores y gratuitos."
 % Miguel Ángel Caro Bernal
 % Curso 2020/21
 
 # Descripción general del proyecto
 
-Desarrollo de una aplicación web destinada a compartir, añadir y proponer recursos educativos
-de forma gratuita para la comunidad educativa en infantil, primaria, secundaria y formación profesional.
+Desarrollo de una aplicación web destinada a orientar a los profesionales de la comunidad educativa. Concretamente en los grados de
+educación infantil, educación primaria, educación secundaria y formación profesional, mediante recursos educativos.
+Dichos profesionales podrán compartir, añadir y proponer estos recursos de forma gratuita. 
 
 La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado.
 
@@ -13,7 +14,7 @@ La aplicación consta de varias interfaces principales, cuyo aspecto y funcional
 
 **orientaT** permitirá a los usuarios registrados realizar diferentes funciones dependiendo del rol, si es usuario podrá añadir recursos, buscar recursos por diferentes categorías, dejar comentarios y valoración sobre otros recursos disponibles.
 Si es revisor se encargará del control de los nuevos recursos añadidos por los usuarios (validación de los nuevos recursos), añadir recursos e iniciar propuestas.
-El rol de administrador es llevar a cabo el correcto funcionamiento de la aplicación web y funcionamiento de los usuarios. 
+El rol de administrador es llevar a cabo el correcto funcionamiento de la aplicación web y de los usuarios.
 
 
 ## Objetivos generales
