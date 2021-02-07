@@ -6,7 +6,7 @@
 
 Desarrollo de una aplicación web destinada a orientar a los profesionales de la comunidad educativa. Concretamente en los grados de
 educación infantil, educación primaria, educación secundaria y formación profesional, mediante recursos educativos.
-Dichos profesionales podrán compartir, añadir y proponer estos recursos de forma gratuita. 
+Dichos profesionales podrán ver, compartir, añadir y proponer estos recursos de forma gratuita. 
 
 La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado.
 
