@@ -20,10 +20,11 @@ El rol de administrador es el que llevará a cabo el correcto funcionamiento de 
 
 * Objetivo: "ver, comentar, valorar, crear y gestionar los diferentes recursos educativos.".
 * Casos de uso: 
-    * Usuario: "Registrarse", "iniciar sesión", "ver recursos", "descargar recursos", "comentar y valorar recursos ya creados".
-    * Revisor: "devolver una película".
-    * Administrador: "devolver una película".
+    * **Usuario:** "Registrarse", "iniciar sesión", "ver recursos", "descargar recursos", "comentar recursos ya creados"
+    "dar like a recursos creados", "buscar recursos".
+    * **Revisor:** Todos los anteriores, "aceptar un recurso nuevo", "denegar un recurso nuevo", "proponer nuevos recursos", "avisar de incidencias al administrador".
+    * **Administrador:** Todos los anteriores, "Recibir incidencias", "Solucionar incidencias", "Modificar usuarios".
 
 # Elemento de innovación
 
-Implementacion de PWA (Progressive Web App).
+Implementación de PWA (Progressive Web App).
