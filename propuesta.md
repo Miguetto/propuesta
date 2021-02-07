@@ -13,7 +13,7 @@ La aplicación consta de varias interfaces principales, cuyo aspecto y funcional
 
 orientaT permitirá a los usuarios registrados realizar diferentes funciones dependiendo del rol, si es usuario podrá añadir recursos, buscar recursos por diferentes categorías, dejar comentarios y valoración sobre otros recursos disponibles.
 Si es revisor se encargará del control de los nuevos recursos añadidos por los usuarios (validación de los nuevos recursos), añadir recursos e iniciar propuestas.
-El rol de administrador es el que llevará a cabo el correcto funcionamiento de la aplicación web. 
+El rol de administrador es llevar a cabo el correcto funcionamiento de la aplicación web y funcionamiento de los usuarios. 
 
 
 ## Objetivos generales
