@@ -343,6 +343,186 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Creación base de datos**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear la base de datos para guardar la información de usuarios, recursos, comentarios, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Crear un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un usuario cumpliendo las reglas SQL definidas en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Modificar un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Eliminar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá eliminar al usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Iniciar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario registrado podrá iniciar sesión en la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Cerrar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario logueado en ese momento podrá cerrar sesión.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Cambiar rol a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá cambiar el rol asignado a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Añadir un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Modificar un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar un recurso creado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Eliminar un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar un recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Añadir un comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un comentario a un recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R50**     | **Modificar un comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar un comentario creado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R51**     | **Borrar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Borrar un comentario propio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R52**     | **Responder comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Responder comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R53**     | **Panel Admin**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador de la web tendrá un panel de uso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R54**     | **Dar like a un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar like a un recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R55**     | **Ver perfil de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario al loguearse aparecerá en su página principal.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Ver listado de recursos**         |
+| --------------: | :------------------- |
+| **Descripción** | Se visualizarán los recursos disponibles.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Ver listado de recursos filtrados**         |
+| --------------: | :------------------- |
+| **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo, categoría, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Ver listado de recursos filtrados**         |
+| --------------: | :------------------- |
+| **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +566,23 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R39**) Creación base de datos | Importante | Información | Fácil | v1 | 
+| (**R40**) Crear un usuario | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificar un usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Eliminar usuario | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Cambiar rol a un usuario | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Añadir un recurso | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Modificar un recurso | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Eliminar un recurso | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Añadir un comentario | Importante | Funcional | Fácil | v2 | 
+| (**R50**) Modificar un comentario | Importante | Funcional | Fácil | v2 | 
+| (**R51**) Borrar comentario | Importante | Funcional | Fácil | v2 | 
+| (**R52**) Responder comentario | Importante | Funcional | Media | v2 | 
+| (**R53**) Panel Admin | Importante | Funcional | Media | v2 | 
+| (**R54**) Dar like a un recurso | Importante | Funcional | Media | v3 | 
+| (**R55**) Ver perfil de usuario | Importante | Funcional | Media | v1 | 
+| (**R56**) Ver listado de recursos | Importante | Funcional | Media | v1 | 
+| (**R57**) Ver listado de recursos filtrados | Importante | Funcional | Media | v2 | 
+| (**R58**) Ver listado de recursos filtrados | Importante | Funcional | Media | v3 | 

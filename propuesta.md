@@ -1,4 +1,5 @@
-% orientaT : "Recursos educativos accesibles, facilitadores y gratuitos."
+% **orientaT**
+% Recursos educativos accesibles, facilitadores y gratuitos.
 % Miguel Ángel Caro Bernal
 % Curso 2020/21
 
