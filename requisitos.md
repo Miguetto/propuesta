@@ -352,7 +352,7 @@
 | **Entrega**     | v1             |
 
 
-| **R40**     | **Crear un usuario**         |
+| **R40**     | **Crear usuario**         |
 | --------------: | :------------------- |
 | **Descripción** | Añadir un usuario cumpliendo las reglas SQL definidas en la base de datos.             |
 | **Prioridad**   | Importante           |
@@ -361,9 +361,9 @@
 | **Entrega**     | v1             |
 
 
-| **R41**     | **Modificar un usuario**         |
+| **R41**     | **Modificar usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | Modificar un usuario.             |
+| **Descripción** | Se podrá modificar algunos datos del usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -372,14 +372,23 @@
 
 | **R42**     | **Eliminar usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | Se podrá eliminar al usuario.             |
+| **Descripción** | El administrador podrá eliminar a un usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R43**     | **Registro de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario se podrá registrar en la web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
 | **Entrega**     | v1             |
 
 
-| **R43**     | **Iniciar sesión**         |
+| **R44**     | **Iniciar sesión**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario registrado podrá iniciar sesión en la aplicación.             |
 | **Prioridad**   | Importante           |
@@ -388,7 +397,7 @@
 | **Entrega**     | v1             |
 
 
-| **R44**     | **Cerrar sesión**         |
+| **R45**     | **Cerrar sesión**         |
 | --------------: | :------------------- |
 | **Descripción** | El usuario logueado en ese momento podrá cerrar sesión.             |
 | **Prioridad**   | Importante           |
@@ -397,7 +406,43 @@
 | **Entrega**     | v1             |
 
 
-| **R45**     | **Cambiar rol a un usuario**         |
+| **R46**     | **Darse de baja**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá darse de baja de la web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R47**     | **Correo de registro**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario al registrarse recibirá un correo de información de registro.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Correo de confirmación **         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario al darse de baja recibirá un correo para confirmar la baja.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R49**     | **Control de visitante**         |
+| --------------: | :------------------- |
+| **Descripción** | El visitante que no está registrado ni logueado, sólo verá la página de inicio con un enlace al apartado de registro.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Cambiar rol a un usuario**         |
 | --------------: | :------------------- |
 | **Descripción** | El administrador podrá cambiar el rol asignado a un usuario.             |
 | **Prioridad**   | Importante           |
@@ -406,97 +451,169 @@
 | **Entrega**     | v1             |
 
 
-| **R46**     | **Añadir un recurso**         |
+| **R51**     | **Añadir un recurso de un tipo en concreto**         |
 | --------------: | :------------------- |
-| **Descripción** | Añadir un recurso.             |
+| **Descripción** | Añadir un recurso de tipo blog.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R47**     | **Modificar un recurso**         |
+| **R52**     | **Añadir un recurso de un tipo en concreto**         |
 | --------------: | :------------------- |
-| **Descripción** | Modificar un recurso creado.             |
+| **Descripción** | Añadir un recurso de tipo enlace.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R48**     | **Eliminar un recurso**         |
+| **R53**     | **Añadir un recurso de un tipo en concreto**         |
 | --------------: | :------------------- |
-| **Descripción** | Eliminar un recurso.             |
+| **Descripción** | Añadir un recurso de tipo pdf.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
+| **Complejidad** | Media         |
 | **Entrega**     | v1             |
 
 
-| **R49**     | **Añadir un comentario**         |
+| **R54**     | **Añadir un recurso de un tipo en concreto**         |
 | --------------: | :------------------- |
-| **Descripción** | Añadir un comentario a un recurso.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R50**     | **Modificar un comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | Modificar un comentario creado.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R51**     | **Borrar comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | Borrar un comentario propio.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v2             |
-
-
-| **R52**     | **Responder comentario**         |
-| --------------: | :------------------- |
-| **Descripción** | Responder comentario.             |
+| **Descripción** | Añadir un recurso de tipo imagen.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R53**     | **Panel Admin**         |
+| **R55**     | **Añadir un recurso completo**         |
 | --------------: | :------------------- |
-| **Descripción** | El administrador de la web tendrá un panel de uso.             |
+| **Descripción** | Añadir un recurso completo que contenga cualquier tipo.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R54**     | **Dar like a un recurso**         |
+| **R56**     | **Aceptar o denegar un nuevo recurso**         |
 | --------------: | :------------------- |
-| **Descripción** | Dar like a un recurso.             |
+| **Descripción** | Los revisores podrán aceptar o denegar una propuesta, en el caso de aceptarla, se añadirá la propuesta y en el caso contrarío se avisará al usuario y no se añadirá la propuesta.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
 
-| **R55**     | **Ver perfil de usuario**         |
+| **R57**     | **Descargar un recurso**         |
 | --------------: | :------------------- |
-| **Descripción** | El usuario al loguearse aparecerá en su página principal.             |
+| **Descripción** | Habilitar el poder descargarse un recurso de tipo pdf o imagen.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Eliminar un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador y los revisores podrán eliminar un recurso creado.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
 
 
-| **R56**     | **Ver listado de recursos**         |
+| **R59**     | **Modificar un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador y los revisor podrán modificar un recurso creado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R60**     | **Añadir propuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | Los revisores podrán crear nuevas propuestas de recursos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R61**     | **Marcar propuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | Los revisores podrán marcar sus propuestas como finalizadas una vez terminada la votación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R62**     | **Modificar propuesta**         |
+| --------------: | :------------------- |
+| **Descripción** | Los revisores podrán modificar sus propuestas creadas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R63**     | **Añadir comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un comentario a un recurso disponible.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R64**     | **Borrar comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Borrar un comentario propio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R65**     | **Responder comentario**         |
+| --------------: | :------------------- |
+| **Descripción** | Responder comentario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R66**     | **Panel Admin**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador de la web tendrá un panel de uso con herramientas para el control de usuarios y demás.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R67**     | **Dar like a un recurso**         |
+| --------------: | :------------------- |
+| **Descripción** | Dar like a un recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R68**     | **Ver perfil de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario al loguearse aparecerá en su página principal, dónde aparecerán sus recursos creados.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R69**     | **Ver listado de recursos**         |
 | --------------: | :------------------- |
 | **Descripción** | Se visualizarán los recursos disponibles.             |
 | **Prioridad**   | Importante           |
@@ -505,7 +622,7 @@
 | **Entrega**     | v1             |
 
 
-| **R57**     | **Ver listado de recursos filtrados**         |
+| **R70**     | **Ver listado de recursos filtrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo, categoría, etc.             |
 | **Prioridad**   | Importante           |
@@ -514,9 +631,81 @@
 | **Entrega**     | v2             |
 
 
-| **R58**     | **Ver listado de recursos filtrados**         |
+| **R71**     | **Notificación de nuevo recurso**         |
 | --------------: | :------------------- |
-| **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo.             |
+| **Descripción** | Al añadir un usuario un nuevo recurso, se envía una notificación a los revisores para validar dicho recurso.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R72**     | **Menú notificaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar un menú que aparece en el perfil del revisor con las notificaciones de nuevos recursos a validar.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R73**     | **Enviar incidencia**         |
+| --------------: | :------------------- |
+| **Descripción** | Los revisores podrán enviar incidencias en la web al administrador             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R74**     | **Recibir indicencias**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador recibirá las incidencias como notificaciones.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R75**     | **Implementación pwa**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir los elementos necesarios para el correcto funcionamiento como web progresiva.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R76**     | **Extensión votaciones yii2**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar las votaciones de las propuestas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R77**     | **Notificaciones push**         |
+| --------------: | :------------------- |
+| **Descripción** | Mensajes cuando se visita la web desde un smpartphone o tablet.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R78**     | **Añadir voto positivo**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá votar de forma positiva una propuesta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R79**     | **Añadir voto negativo**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá votar de forma negativa una propuesta.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -567,22 +756,43 @@
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
 | (**R39**) Creación base de datos | Importante | Información | Fácil | v1 | 
-| (**R40**) Crear un usuario | Importante | Funcional | Fácil | v1 | 
-| (**R41**) Modificar un usuario | Importante | Funcional | Fácil | v1 | 
-| (**R42**) Eliminar usuario | Importante | Funcional | Fácil | v1 | 
-| (**R43**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
-| (**R44**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
-| (**R45**) Cambiar rol a un usuario | Importante | Funcional | Fácil | v1 | 
-| (**R46**) Añadir un recurso | Importante | Funcional | Fácil | v1 | 
-| (**R47**) Modificar un recurso | Importante | Funcional | Fácil | v1 | 
-| (**R48**) Eliminar un recurso | Importante | Funcional | Fácil | v1 | 
-| (**R49**) Añadir un comentario | Importante | Funcional | Fácil | v2 | 
-| (**R50**) Modificar un comentario | Importante | Funcional | Fácil | v2 | 
-| (**R51**) Borrar comentario | Importante | Funcional | Fácil | v2 | 
-| (**R52**) Responder comentario | Importante | Funcional | Media | v2 | 
-| (**R53**) Panel Admin | Importante | Funcional | Media | v2 | 
-| (**R54**) Dar like a un recurso | Importante | Funcional | Media | v3 | 
-| (**R55**) Ver perfil de usuario | Importante | Funcional | Media | v1 | 
-| (**R56**) Ver listado de recursos | Importante | Funcional | Media | v1 | 
-| (**R57**) Ver listado de recursos filtrados | Importante | Funcional | Media | v2 | 
-| (**R58**) Ver listado de recursos filtrados | Importante | Funcional | Media | v3 | 
+| (**R40**) Crear usuario | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificar usuario | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Eliminar usuario | Importante | Funcional | Media | v2 | 
+| (**R43**) Registro de usuario | Importante | Funcional | Media | v1 | 
+| (**R44**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Darse de baja | Importante | Funcional | Media | v2 | 
+| (**R47**) Correo de registro | Importante | Funcional | Media | v1 | 
+| (**R48**) Correo de confirmación  | Importante | Funcional | Media | v2 | 
+| (**R49**) Control de visitante | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Cambiar rol a un usuario | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Añadir un recurso de un tipo en concreto | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Añadir un recurso de un tipo en concreto | Importante | Funcional | Fácil | v1 | 
+| (**R53**) Añadir un recurso de un tipo en concreto | Importante | Funcional | Media | v1 | 
+| (**R54**) Añadir un recurso de un tipo en concreto | Importante | Funcional | Media | v2 | 
+| (**R55**) Añadir un recurso completo | Importante | Funcional | Media | v2 | 
+| (**R56**) Aceptar o denegar un nuevo recurso | Importante | Funcional | Media | v3 | 
+| (**R57**) Descargar un recurso | Importante | Funcional | Media | v2 | 
+| (**R58**) Eliminar un recurso | Importante | Funcional | Media | v1 | 
+| (**R59**) Modificar un recurso | Importante | Funcional | Media | v1 | 
+| (**R60**) Añadir propuesta | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Marcar propuesta | Importante | Funcional | Difícil | v3 | 
+| (**R62**) Modificar propuesta | Importante | Funcional | Media | v2 | 
+| (**R63**) Añadir comentario | Importante | Funcional | Media | v3 | 
+| (**R64**) Borrar comentario | Importante | Funcional | Media | v3 | 
+| (**R65**) Responder comentario | Importante | Funcional | Media | v3 | 
+| (**R66**) Panel Admin | Importante | Funcional | Media | v2 | 
+| (**R67**) Dar like a un recurso | Importante | Funcional | Media | v2 | 
+| (**R68**) Ver perfil de usuario | Importante | Funcional | Media | v1 | 
+| (**R69**) Ver listado de recursos | Importante | Funcional | Media | v1 | 
+| (**R70**) Ver listado de recursos filtrados | Importante | Funcional | Media | v2 | 
+| (**R71**) Notificación de nuevo recurso | Importante | Funcional | Difícil | v2 | 
+| (**R72**) Menú notificaciones | Importante | Funcional | Difícil | v2 | 
+| (**R73**) Enviar incidencia | Importante | Funcional | Difícil | v3 | 
+| (**R74**) Recibir indicencias | Importante | Funcional | Difícil | v3 | 
+| (**R75**) Implementación pwa | Importante | Funcional | Difícil | v3 | 
+| (**R76**) Extensión votaciones yii2 | Importante | Funcional | Difícil | v3 | 
+| (**R77**) Notificaciones push | Importante | Funcional | Difícil | v3 | 
+| (**R78**) Añadir voto positivo | Importante | Funcional | Media | v3 | 
+| (**R79**) Añadir voto negativo | Importante | Funcional | Media | v3 | 
