@@ -685,10 +685,10 @@
 | **Entrega**     | v3             |
 
 
-| **R77**     | **Notificaciones push**         |
+| **R77**     | **Notificaciones**         |
 | --------------: | :------------------- |
 | **Descripción** | Mensajes cuando se visita la web desde un smpartphone o tablet.             |
-| **Prioridad**   | Importante           |
+| **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
@@ -793,6 +793,6 @@
 | (**R74**) Recibir indicencias | Importante | Funcional | Difícil | v3 | 
 | (**R75**) Implementación pwa | Importante | Funcional | Difícil | v3 | 
 | (**R76**) Extensión votaciones yii2 | Importante | Funcional | Difícil | v3 | 
-| (**R77**) Notificaciones push | Importante | Funcional | Difícil | v3 | 
+| (**R77**) Notificaciones | Opcional | Funcional | Difícil | v3 | 
 | (**R78**) Añadir voto positivo | Importante | Funcional | Media | v3 | 
 | (**R79**) Añadir voto negativo | Importante | Funcional | Media | v3 | 
