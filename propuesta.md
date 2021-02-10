@@ -10,15 +10,15 @@ Dichos profesionales podrán ver, compartir y añadir estos recursos de forma gr
 
 Los recursos pueden ser archivos en pdf, imagenes, enlaces, formato de blog, etc.
 
-La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del rol del usuario registrado.
+La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del tipo de usuario registrado.
 
 ## Funcionalidad principal de la aplicación
 
 **orientaT** permitirá a los usuarios registrados realizar diferentes funciones dependiendo del rol, si es usuario podrá ver los recursos disponibles, añadir recursos, buscar recursos por diferentes categorías, dejar comentarios y valoración sobre otros recursos, participar en la votación de nuevas propuestas de recursos.
 Si es revisor se encargará del control de los nuevos recursos añadidos por los usuarios (validación y modificación de los nuevos recursos), añadir recursos e iniciar propuestas.
-El rol de administrador es llevar a cabo el correcto funcionamiento de la aplicación web y de los usuarios.
+El administrador llevará a cabo el correcto funcionamiento de la aplicación web y de los usuarios.
 
-Dependiendo del rol del usuario tendrá un menú con unas opciones u otras.
+Dependiendo del tipo de usuario tendrá un menú con unas opciones u otras.
 
 
 ## Objetivos generales
