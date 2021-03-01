@@ -8,7 +8,7 @@ Desarrollo de una aplicación web destinada a orientar a los profesionales de la
 educación infantil, educación primaria, educación secundaria y formación profesional, mediante recursos educativos.
 Dichos profesionales podrán ver, compartir y añadir estos recursos de forma gratuita, también habrá un apartado para proponer nuevos recursos con un sistema de votación.
 
-Los recursos pueden ser archivos en pdf, imagenes, enlaces, formato de blog, etc.
+Los recursos pueden ser archivos en pdf, imagenes, enlaces, formato de blog.
 
 La aplicación consta de varias interfaces principales, cuyo aspecto y funcionalidad dependerán del tipo de usuario registrado.
 
@@ -33,5 +33,7 @@ Dependiendo del tipo de usuario tendrá un menú con unas opciones u otras.
 
 * Implementación de PWA (Progressive Web App):
     * Diseño web como app nativa.
-* Sistema de votación con extensiones de yii2.
+* Sistema de votación con extensiones de yii2:
+    * Service Worker API.
+    * beforeinstallprompt para instalar la aplicación.
 

@@ -345,7 +345,7 @@
 
 | **R39**     | **Creación base de datos**         |
 | --------------: | :------------------- |
-| **Descripción** | Crear la base de datos para guardar la información de usuarios, recursos, comentarios, etc.             |
+| **Descripción** | Crear la base de datos para guardar la información de usuarios, recursos, comentarios.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -354,7 +354,7 @@
 
 | **R40**     | **Crear usuario**         |
 | --------------: | :------------------- |
-| **Descripción** | Añadir un usuario cumpliendo las reglas SQL definidas en la base de datos.             |
+| **Descripción** | Añadir un usuario a la base de datos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -588,7 +588,7 @@
 
 | **R66**     | **Panel Admin**         |
 | --------------: | :------------------- |
-| **Descripción** | El administrador de la web tendrá un panel de uso con herramientas para el control de usuarios y demás.             |
+| **Descripción** | El administrador de la web tendrá un panel de uso con herramientas para el control de usuarios y recursos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -624,7 +624,7 @@
 
 | **R70**     | **Ver listado de recursos filtrados**         |
 | --------------: | :------------------- |
-| **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo, categoría, etc.             |
+| **Descripción** | Se visualizarán los recursos disponibles filtrados por tipo y categoría.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -712,6 +712,24 @@
 | **Entrega**     | v3             |
 
 
+| **R80**     | **Poder instalar la aplicación en el móvil**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá instalar la aplicación en el móvil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R81**     | **Poder visitar la aplicación offline**         |
+| --------------: | :------------------- |
+| **Descripción** | Se podrá visitar la web de forma offline.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -796,3 +814,5 @@
 | (**R77**) Notificaciones | Opcional | Funcional | Difícil | v3 | 
 | (**R78**) Añadir voto positivo | Importante | Funcional | Media | v3 | 
 | (**R79**) Añadir voto negativo | Importante | Funcional | Media | v3 | 
+| (**R80**) Poder instalar la aplicación en el móvil | Importante | Funcional | Difícil | v3 | 
+| (**R81**) Poder visitar la aplicación offline | Importante | Funcional | Difícil | v3 | 
